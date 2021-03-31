@@ -1,4 +1,4 @@
-const BHA_ICONS_MAP = {
+const PAP_ICONS_MAP = {
   'ceiling-fan':
     'm8 4.9996v2h3v5.2676c-0.61892 0.35733-1.0001 1.0178-1 1.7324v1h4v-1c1.33e-4 -0.71466-0.38108-1.3751-1-1.7324v-5.2676h3v-2h-6zm-2 9c-2.2091 0-4 0.67157-4 1.5 0 0.82843 1.7909 1.5 4 1.5s4-0.67157 4-1.5c0-0.82843-1.7909-1.5-4-1.5zm12 0c-2.2091 0-4 0.67157-4 1.5 0 0.82843 1.7909 1.5 4 1.5s4-0.67157 4-1.5c0-0.82843-1.7909-1.5-4-1.5zm-8 2v1c-1.326e-4 0.71466 0.38108 1.3751 1 1.7324 0.6188 0.35726 1.3812 0.35726 2 0 0.61892-0.35733 1.0001-1.0178 1-1.7324v-1z',
 
@@ -71,21 +71,21 @@ const BHA_ICONS_MAP = {
 
 // Iconset API (Home Assistant 0.110 and up):
 async function getIcon(name) {
-  return { path: BHA_ICONS_MAP[name] };
+  return { path: PAP_ICONS_MAP[name] };
 }
 
 window.customIconsets = window.customIconsets || {};
-window.customIconsets['bha'] = getIcon;
+window.customIconsets['pap'] = getIcon;
 
 if (!window.frontendVersion || window.frontendVersion < 20200519.0) {
   // ha-iconset-svg (Up to Home Assistant 0.109):
   const iconset = document.createElement("ha-iconset-svg");
-  iconset.name = "bha";
+  iconset.name = "pap";
   iconset.size = "24";
 
   let iconsetHTML = '';
-  for (let key in BHA_ICONS_MAP) {
-    iconsetHTML += `<g id="${key}"><path d="${BHA_ICONS_MAP[key]}" /></g>`;
+  for (let key in PAP_ICONS_MAP) {
+    iconsetHTML += `<g id="${key}"><path d="${PAP_ICONS_MAP[key]}" /></g>`;
   }
 
   iconset.innerHTML = `<svg><defs>${iconsetHTML}</defs></svg>`;
