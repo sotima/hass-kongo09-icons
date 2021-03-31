@@ -1,8 +1,8 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
 
-# hass-bha-icons
+# hass-pap-icons
 
-Custom icon pack designed for Home Assistant.
+Custom icon pack designed for Home Assistant containing icons for Philips Air Purifier.
 
 ## Content
 
@@ -37,14 +37,14 @@ Custom icon pack designed for Home Assistant.
 Add this repo via HACS as a plugin and install.  See the [HACS install guide](./HACS_INSTALL.md) for step by step instructions.
 
 ### Manual
-Copy the `hass-bha-icons.js` file into `<config>/www/` where `<config>` is your home-assistant config directory (the directory where your `configuration.yaml` resides).
+Copy the `hass-pap-icons.js` file into `<config>/www/` where `<config>` is your home-assistant config directory (the directory where your `configuration.yaml` resides).
 
 Add the folowing to the `frontend` section of your `configuration.yaml`
 
 ```yaml
 frontend:
   extra_module_url:
-    - /local/hass-bha-icons.js
+    - /local/hass-pap-icons.js
 ```
 
 Or add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml if using YAML mode.
@@ -52,13 +52,13 @@ Or add the following to your lovelace configuration using the Raw Config editor 
 ```yaml
 resources:
   - type: js
-    url: /local/hass-bha-icons.js
+    url: /local/hass-pap-icons.js
 ```
 
 Restart home-assistant.
 
 ## Using
-The icons uses the prefix `bha:`.
+The icons uses the prefix `pap:`.
 
 Example:
 
@@ -90,6 +90,4 @@ Q: The icon ain't showing, it's just white space where it should be. What's up w
 A: Probably related to cache. Try opening your instance in a incognito/private Window and see if your icon shows then. If yes, it's cache related. If not, spellcheck.
 
 ## Thanks
-Thanks to @thomasloven, as I used his hass-fontawesome as a template for this pack
-
-Thanks to @prairiesnpr, @kmlucy, @GeorgeSG and @shbatm for their contributiuons
+Thanks to @hulkhaugen, as I used his hass-bha-icons based on hass-fontawesome from @thomasloven as a template for this pack
