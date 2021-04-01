@@ -6,29 +6,28 @@ Custom icon pack designed for Home Assistant containing icons for Philips Air Pu
 
 ## Content
 
-![Preview](./svg/ceiling-fan.svg) ceiling-fan<br />
-![Preview](./svg/ceiling-fan-light.svg) ceiling-fan-light<br />
-![Preview](./svg/ceiling-lamp.svg) ceiling-lamp<br />
-![Preview](./svg/ceiling-lamp-plafond.svg) ceiling-lamp-plafond<br />
-![Preview](./svg/ceiling-lamp-round.svg) ceiling-lamp-round<br />
-![Preview](./svg/chandelier.svg) chandelier<br />
-![Preview](./svg/dome-light.svg) dome-light<br />
-![Preview](./svg/floor-lamp.svg) floor-lamp<br />
-![Preview](./svg/floor-lamp-dual.svg) floor-lamp-dual<br />
-![Preview](./svg/led-strip.svg) led-strip<br />
-![Preview](./svg/light-string.svg) light-string<br />
-![Preview](./svg/outdoor-lamp.svg) outdoor-lamp<br />
+![Preview](./svg/power_button.svg) power_button<br />
+![Preview](./svg/child_lock_button.svg) child_lock_button<br />
+![Preview](./svg/auto_mode_button.svg) auto_mode_button<br />
+![Preview](./svg/fan_speed_button.svg) fan_speed_button<br />
+![Preview](./svg/humidity_button.svg) humidity_button<br />
+![Preview](./svg/light_dimming_button.svg) light_dimming_button<br />
+![Preview](./svg/two_in_one_mode_button.svg) two_in_one_mode_button<br />
+![Preview](./svg/timer_reset_button.svg) timer_reset_button<br />
+![Preview](./svg/sleep_mode.svg) sleep_mode<br />
+![Preview](./svg/auto_mode.svg) auto_mode<br />
+![Preview](./svg/allergen_mode.svg) allergen_mode<br />
+![Preview](./svg/purification_only_mode.svg) purification_only_mode<br />
 ![Preview](./svg/outdoor-lamp-solo.svg) outdoor-lamp-solo<br />
-![Preview](./svg/outdoor-lamp-variant.svg) outdoor-lamp-variant<br />
-![Preview](./svg/mirror-lamp.svg) mirror-lamp<br />
-![Preview](./svg/path-light.svg) path-light<br />
-![Preview](./svg/roborock.svg) roborock<br />
-![Preview](./svg/smoke-detector.svg) smoke-detector<br />
-![Preview](./svg/stairs.svg) stairs<br />
-![Preview](./svg/table-lamp-variant.svg) table-lamp-variant<br />
-![Preview](./svg/thermostat.svg) thermostat<br />
-![Preview](./svg/xmas-candle-bridge.svg) xmas-candle-bridge<br />
-![Preview](./svg/xmas-star.svg) xmas-star<br />
+![Preview](./svg/two_in_one_mode.svg) two_in_one_mode<br />
+![Preview](./svg/bacteria_virus_mode.svg) bacteria_virus_mode<br />
+![Preview](./svg/filter_replacement.svg) filter_replacement<br />
+![Preview](./svg/water_refill.svg) water_refill<br />
+![Preview](./svg/prefilter_wick_cleaning.svg) prefilter_wick_cleaning<br />
+![Preview](./svg/pm25.svg) pm25<br />
+![Preview](./svg/iai.svg) iai<br />
+![Preview](./svg/wifi.svg) wifi<br />
+![Preview](./svg/reset.svg) reset<br />
 
 
 ## Install
