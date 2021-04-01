@@ -7,11 +7,11 @@ Install the plugin and use it like in this example:
 title: My Card
 type: entities
 entities:
-  - entity: light.rgbw_ledstrip
-    icon: pap:led-strip
+  - entity: fan.air_ac2729
+    icon: pap:power_button
 ```
 
-![Example](https://github.com/hulkhaugen/hass-bha-icons/blob/master/content.png)
+![Example](https://github.com/kongo09/hass-pap-icons/blob/master/content.png)
 
 ### Systemwide availability (Optional)
 The steps above will make the icons available, but limited to the Lovelace UI only. If you want the icons to be available throughout Home Assistant, add the following to the `frontend` section of your `configuration.yaml`
