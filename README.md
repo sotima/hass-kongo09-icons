@@ -32,7 +32,7 @@ Custom icon pack designed for Home Assistant containing icons for Philips Air Pu
 ## Install
 
 ### HACS
-Add this repo via HACS as a plugin and install.  See the [HACS install guide](./HACS_INSTALL.md) for step by step instructions.
+Add `https://github.com/kongo09/hass-pap-icons` as custom-repository for a Lovelace plugin in [HACS](https://hacs.xyz/docs/faq/custom_repositories/)
 
 ### Manual
 Copy the `hass-pap-icons.js` file into `<config>/www/` where `<config>` is your home-assistant config directory (the directory where your `configuration.yaml` resides).
