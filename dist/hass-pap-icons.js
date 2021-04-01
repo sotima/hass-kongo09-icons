@@ -76,7 +76,7 @@ if (!window.frontendVersion || window.frontendVersion < 20200519.0) {
   // ha-iconset-svg (Up to Home Assistant 0.109):
   const iconset = document.createElement("ha-iconset-svg");
   iconset.name = "pap";
-  iconset.size = "42";
+  iconset.size = "24";
 
   let iconsetHTML = "";
   for (let key in PAP_ICONS_MAP) {
