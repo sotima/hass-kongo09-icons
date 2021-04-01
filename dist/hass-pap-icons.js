@@ -66,7 +66,12 @@ const PAP_ICONS_MAP = {
 
 // Iconset API (Home Assistant 0.110 and up):
 async function getIcon(name) {
-  return { path: PAP_ICONS_MAP[name] };
+  var primaryPath = PAP_ICONS_MAP[name];
+  return {
+    path: primaryPath,
+    viewBox: "0 0 42 42"
+  };
+return { path: PAP_ICONS_MAP[name] };
 }
 
 window.customIconsets = window.customIconsets || {};
@@ -76,7 +81,7 @@ if (!window.frontendVersion || window.frontendVersion < 20200519.0) {
   // ha-iconset-svg (Up to Home Assistant 0.109):
   const iconset = document.createElement("ha-iconset-svg");
   iconset.name = "pap";
-  iconset.size = "24";
+  iconset.size = "42";
 
   let iconsetHTML = "";
   for (let key in PAP_ICONS_MAP) {
