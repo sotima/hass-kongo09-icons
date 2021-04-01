@@ -61,31 +61,27 @@ The icons uses the prefix `pap:`.
 Example:
 
 ```
-entities:
-  - entity: light.floor_lamp
-    icon: 'bha:floor-lamp'
-    name: floor-lamp
-  - entity: light.floor_lamp_dual
-    icon: 'bha:floor-lamp-dual'
-    name: floor-lamp-dual
-  - entity: light.led_strip
-    icon: 'bha:led-strip'
-    name: led-strip
-  - entity: light.outdoor_lamp_north
-    icon: 'bha:outdoor-lamp'
-    name: outdoor-lamp
-  - entity: light.outdoor_lamp_west
-    icon: 'bha:outdoor-lamp-variant'
-    name: outdoor-lamp-variant
-show_header_toggle: false
-title: hass-bha-icons
-type: entities
+type: entity
+entity: fan.air_ac2729
+icon: 'pap:power_button'
 ```
 
 ## FAQ
 Q: The icon ain't showing, it's just white space where it should be. What's up with that?
 
 A: Probably related to cache. Try opening your instance in a incognito/private Window and see if your icon shows then. If yes, it's cache related. If not, spellcheck.
+
+Q: The icon looks like zoomed-in, I can only see the top left corner of it. What's going on?
+
+A: You might be on an older version of Home Assistant. The icons are in a viewbox of 42 x 42 and that's specified in the code so that Lovelace can size the icons properly. In the past there was no size specification and the icons used to be of size 24 x 24. I am too lazy right now to resize everything to make that work. Try to upgrade Home Assistant instead.
+
+Q: The icons look great, but what Lovelace card would you recommend to make use of them?
+
+A: Great question - I couldn't find one either that takes advantage of the Philips devices. So I used a `lovelace-button-card` to create one. You can find it here: https://community.home-assistant.io/t/lovelace-button-card/65981/4938?u=kongo09
+
+Q: I cannot get my Philips Air Purifier to work with Home Assistant. I know this is off-topic for an icon pack, but how did you do that?
+
+A: The best way is the great integration by @betaboon which can find here: https://github.com/betaboon/philips-airpurifier
 
 ## Thanks
 Thanks to @hulkhaugen, as I used his hass-bha-icons based on hass-fontawesome from @thomasloven as a template for this pack
