@@ -8,7 +8,7 @@ title: My Card
 type: entities
 entities:
   - entity: light.rgbw_ledstrip
-    icon: bha:led-strip
+    icon: pap:led-strip
 ```
 
 ![Example](https://github.com/hulkhaugen/hass-bha-icons/blob/master/content.png)
@@ -19,7 +19,7 @@ The steps above will make the icons available, but limited to the Lovelace UI on
 ```yaml
 frontend:
   extra_module_url:
-    - /hacsfiles/hass-bha-icons/hass-bha-icons.js
+    - /hacsfiles/hass-pap-icons/hass-pap-icons.js
 ```
 
 For this step, a system restart is needed.
