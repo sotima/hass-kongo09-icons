@@ -71,10 +71,6 @@ Q: The icon ain't showing, it's just white space where it should be. What's up w
 
 A: Probably related to cache. Try opening your instance in a incognito/private Window and see if your icon shows then. If yes, it's cache related. If not, spellcheck.
 
-Q: The icon looks like zoomed-in, I can only see the top left corner of it. What's going on?
-
-A: You might be on an older version of Home Assistant. The icons are in a viewbox of 42 x 42 and that's specified in the code so that Lovelace can size the icons properly. In the past there was no size specification and the icons used to be of size 24 x 24. I am too lazy right now to resize everything to make that work. Try to upgrade Home Assistant instead.
-
 Q: The icons look great, but what Lovelace card would you recommend to make use of them?
 
 A: Great question - I couldn't find one either that takes advantage of the Philips devices. So I used a `lovelace-button-card` to create one. You can find it here: https://community.home-assistant.io/t/lovelace-button-card/65981/4938?u=kongo09
