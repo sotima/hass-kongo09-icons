@@ -6,8 +6,10 @@ Custom icon pack designed for Home Assistant for personal use
 
 ## Content
 
-![Preview](./svg/power_button.svg) power_button<br />
-
+![Preview](./svg/xmas_star.svg) xmas_star<br />
+![Preview](./svg/xmas_stars.svg) xmas_stars<br />
+![Preview](./svg/circle.svg) circle<br />
+![Preview](./svg/roborock.svg) roborock<br />
 
 
 ## Install
