@@ -10,6 +10,8 @@ Custom icon pack designed for Home Assistant for personal use
 ![Preview](./svg/xmas_stars.svg) xmas_stars<br />
 ![Preview](./svg/circle.svg) circle<br />
 ![Preview](./svg/roborock.svg) roborock<br />
+![Preview](./svg/ceiling_light.svg) ceiling_light<br />
+![Preview](./svg/spot_light.svg) spot_light<br />
 
 
 ## Install
