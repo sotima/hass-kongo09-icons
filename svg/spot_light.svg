@@ -236,7 +236,7 @@
      id="layer1">
     <path
        id="rect864"
-       style="fill:none;fill-opacity:1;stroke:none;stroke-width:2;stroke-opacity:1"
+       style="fill-opacity:1;stroke:none;stroke-width:2;stroke-opacity:1"
        d="M 8.9511719 4 A 2 2 0 0 0 7 6 L 7 8 A 2 2 0 0 0 9 10 L 13.75 10 L 9.1171875 12.470703 A 2 2 0 0 0 8.2949219 15.175781 L 9.234375 16.941406 A 2 2 0 0 0 11.941406 17.765625 L 17.234375 14.941406 A 2 2 0 0 0 18.058594 12.234375 L 17.117188 10.470703 A 2 2 0 0 0 16.199219 9.5996094 A 2 2 0 0 0 17 8 L 17 6 A 2 2 0 0 0 15 4 L 9 4 A 2 2 0 0 0 8.9511719 4 z " />
   </g>
 </svg>
