@@ -12,7 +12,9 @@ Custom icon pack designed for Home Assistant for personal use
 ![Preview](./svg/roborock.svg) roborock<br />
 ![Preview](./svg/ceiling_light.svg) ceiling_light<br />
 ![Preview](./svg/spot_light.svg) spot_light<br />
-
+![Preview](./svg/wall_light.svg) wall_light<br />
+![Preview](./svg/hanging_light.svg) hanging_light<br />
+![Preview](./svg/pirce_light.svg) pirce_light<br />
 
 ## Install
 
