@@ -30,18 +30,20 @@ const KONGO09_ICONS_MAP = {
     "m10 2v2h0.42578l-5.8555 5h3.082l4.3145-3.6875 4.3555 3.6875h3.0957l-5.9043-5h0.48633v-2h-4zm-8 8v2h3.252l10.545 3.1074-8.459 3.0137c-1.0369 0.37518-0.77065 1.91 0.33203 1.9141h6.7539c0.54472-2.8e-5 0.9863-0.4416 0.98633-0.98633-2.8e-5 -0.54472-0.4416-0.9863-0.98633-0.98633h-1.0449l5.9395-2.1152c0.89883-0.32134 0.86274-1.6047-0.052734-1.875l-7.0352-2.0723h9.7695v-2h-16.668-0.085937-3.2461z",
 };
 
+// assume modern style
 // Iconset API (Home Assistant 0.110 and up):
 async function getIcon(name) {
-  var primaryPath = KONGO09_ICONS_MAP[name];
-  return {
-    path: primaryPath,
-    viewBox: "0 0 24 24"
-  };
-return { path: KONGO09_ICONS_MAP[name] };
+  return { path: KONGO09_ICONS_MAP[name] };
 }
 
+let kongo09_icons_mode = 'modern';
 window.customIconsets = window.customIconsets || {};
 window.customIconsets["kongo09"] = getIcon;
+
+// prepare for picker style
+async function getIconList() {
+  return Object.keys(KONGO09_ICONS_MAP).map(icon => ({name: icon}));
+}
 
 if (!window.frontendVersion || window.frontendVersion < 20200519.0) {
   // ha-iconset-svg (Up to Home Assistant 0.109):
@@ -51,9 +53,21 @@ if (!window.frontendVersion || window.frontendVersion < 20200519.0) {
 
   let iconsetHTML = "";
   for (let key in KONGO09_ICONS_MAP) {
-    iconsetHTML += `<g id="${key}"><path d="${PAP_ICONS_MAP[key]}" /></g>`;
+    iconsetHTML += `<g id="${key}"><path d="${KONGO09_ICONS_MAP[key]}" /></g>`;
   }
 
   iconset.innerHTML = `<svg><defs>${iconsetHTML}</defs></svg>`;
   document.body.appendChild(iconset);
+
+  kongo09_icons_mode = 'legacy';
+} else if(window.frontendVersion > 20211027.0) {
+  // new enough to support getIcon and getIconlist
+  kongo09_icons_mode = 'picker';
+  window.customIcons["kongo09"] = { getIcon, getIconList };
 }
+
+console.info(
+  `%c HASS-KONGO09-ICONS         \n%c Version 1.3 [` + kongo09_icons_mode + `] `,
+  "color: orange; font-weight: bold; background: black",
+  "color: white; font-weight: bold; background: dimgray"
+);
