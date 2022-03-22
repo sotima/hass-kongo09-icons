@@ -40,11 +40,11 @@ if (!window.frontendVersion || window.frontendVersion < 20200519.0) {
 } else if(window.frontendVersion > 20211027.0) {
   // new enough to support getIcon and getIconlist
   sotima_icons_mode = 'picker';
-  window.customIcons["kongo09"] = { getIcon, getIconList };
+  window.customIcons["custom"] = { getIcon, getIconList };
 }
 
 console.info(
-  `%c HASS-KONGO09-ICONS         \n%c Version 1.3 [` + sotima_icons_mode + `] `,
+  `%c HASS-SOTIMA-ICONS         \n%c Version 1.3 [` + sotima_icons_mode + `] `,
   "color: orange; font-weight: bold; background: black",
   "color: white; font-weight: bold; background: dimgray"
 );
