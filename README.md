@@ -6,11 +6,11 @@ Custom icon pack designed for Home Assistant for personal use / shamelessly copi
 
 ## Content
 
-![Preview](./svg/windows-shutter-group.svg) windows-shutter-group<br />
-![Preview](./svg/windows-shutter-group-partly.svg) windows-shutter-group-partly<br />
-![Preview](./svg/windows-shutter-group-open.svg) /windows-shutter-group-open<br />
-![Preview](./svg/windows-shutter-partly.svg) windows-shutter-partly<br />
-![Preview](./svg/windows-shutter-schedule.svg) windows-shutter-schedule<br />
+![Preview](./svg/window-shutter-group.svg) window-shutter-group<br />
+![Preview](./svg/window-shutter-group-partly.svg) window-shutter-group-partly<br />
+![Preview](./svg/window-shutter-group-open.svg) window-shutter-group-open<br />
+![Preview](./svg/window-shutter-partly.svg) window-shutter-partly<br />
+![Preview](./svg/window-shutter-schedule.svg) window-shutter-schedule<br />
 ![Preview](./svg/chip-ota.svg) chip-ota<br />
 
 
