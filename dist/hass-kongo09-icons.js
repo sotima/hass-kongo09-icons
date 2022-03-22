@@ -13,7 +13,7 @@ async function getIcon(name) {
   return { path: SOTIMA_ICONS_MAP[name] };
 }
 
-let kongo09_icons_mode = 'modern';
+let sotima_icons_mode = 'modern';
 window.customIconsets = window.customIconsets || {};
 window.customIconsets["custom"] = getIcon;
 
