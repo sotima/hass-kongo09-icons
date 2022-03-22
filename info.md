@@ -4,7 +4,7 @@
 Install the plugin and use it like in this example:
 
 ```yaml
-ttype: entities
+type: entities
 entities:
   - entity: cover.templ_all
     name: All covers
