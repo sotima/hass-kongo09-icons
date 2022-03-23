@@ -45,7 +45,7 @@ resources:
 Restart home-assistant.
 
 ## Using
-The icons uses the prefix `sotima:`.
+The icons use the prefix `sotima:`.
 
 Example:
 
