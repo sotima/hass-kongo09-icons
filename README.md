@@ -45,14 +45,14 @@ resources:
 Restart home-assistant.
 
 ## Using
-The icons uses the prefix `custom:`.
+The icons uses the prefix `sotima:`.
 
 Example:
 
 ```
 type: entity
-entity: fan.air_ac2729
-icon: 'custom:power_button'
+entity: cover.livingroom
+icon: 'sotima:windows-shutter-partly'
 ```
 
 ## Thanks
