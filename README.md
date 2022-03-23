@@ -15,6 +15,7 @@ Custom icon pack designed for Home Assistant for personal use / shamelessly copi
 ![Preview](./svg/chip-ota.svg) chip-ota<br />
 ![Preview](./svg/radiator-cog.svg) radiator-cog<br />
 ![Preview](./svg/radiator-schedule.svg) radiator-schedule<br />
+![Preview](./svg/radiator-off-schedule.svg) radiator-off-schedule<br />
 ![Preview](./svg/light-tree.svg) light-tree<br />
 
 
