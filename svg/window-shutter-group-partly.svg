@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24" height="24" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" version="1.1" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
     
-    <path d="m12 8.0176v-2.018h-8v9h-1.268v-9h-0.732v-2h12v2h-0.768v2.018zm-4 0.98243v0.99997h-3v-0.99997zm3-0.99121c-1.9829 0.00377-4.1894-0.00934-6-0.00879v-1.0004h6zm11 0.99115v2h-1v8.9779h-1.5v-8.9779h-7.5v8.9779h-1.5v-8.9779h-1v-2m9 3v1h-5.5v-1m0 2h5.5v0.99996h-5.5v-0.99996" fill-rule="nonzero"/>
-</svg>
+    
+<path d="m12 8.0178v-2.018h-7v9h-2v-9h-0.99998v-2h13v2h-1v2.018zm-3.9854 0.98243v0.99997h-2.0021v-0.99997zm2.9854-0.99121-5-0.00879v-1.0004h5zm11 0.99115v2h-1v8.9779h-2v-8.9779h-7v8.9779h-2v-8.9779h-1v-2m9.0125 3v1h-5.0124v-1m0 2h5.0124v0.99996h-5.0124v-0.99996" stroke-width=".86607"/></svg>
