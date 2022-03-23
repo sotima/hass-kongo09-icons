@@ -46,7 +46,7 @@ if (!window.frontendVersion || window.frontendVersion < 20200519.0) {
 }
 
 console.info(
-  `%c HASS-SOTIMA-ICONS         \n%c Version 1.53 [` + sotima_icons_mode + `] `,
+  `%c HASS-SOTIMA-ICONS         \n%c Version 1.54 [` + sotima_icons_mode + `] `,
   "color: orange; font-weight: bold; background: black",
   "color: white; font-weight: bold; background: dimgray"
 );
