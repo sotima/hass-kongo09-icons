@@ -13,6 +13,9 @@ Custom icon pack designed for Home Assistant for personal use / shamelessly copi
 ![Preview](./svg/window-shutter-schedule.svg) window-shutter-schedule<br />
 ![Preview](./svg/window-shutter-cog.svg) window-shutter-cog<br />
 ![Preview](./svg/chip-ota.svg) chip-ota<br />
+![Preview](./svg/radiator-cog.svg) radiator-cog<br />
+![Preview](./svg/radiator-schedule.svg) radiator-schedule<br />
+![Preview](./svg/light-tree.svg) light-tree<br />
 
 
 ## Install
@@ -42,14 +45,14 @@ resources:
 Restart home-assistant.
 
 ## Using
-The icons uses the prefix `custom:`.
+The icons use the prefix `sotima:`.
 
 Example:
 
 ```
 type: entity
-entity: fan.air_ac2729
-icon: 'custom:power_button'
+entity: cover.livingroom
+icon: 'sotima:windows-shutter-partly'
 ```
 
 ## Thanks
