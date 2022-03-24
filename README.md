@@ -10,12 +10,12 @@ Custom icon pack designed for Home Assistant for personal use / shamelessly copi
 ![Preview](./svg/window-shutter-group-partly.svg) window-shutter-group-partly<br />
 ![Preview](./svg/window-shutter-group-open.svg) window-shutter-group-open<br />
 ![Preview](./svg/window-shutter-partly.svg) window-shutter-partly<br />
-![Preview](./svg/window-shutter-schedule.svg) window-shutter-schedule<br />
+![Preview](./svg/window-shutter-clock.svg) window-shutter-clock<br />
 ![Preview](./svg/window-shutter-cog.svg) window-shutter-cog<br />
 ![Preview](./svg/chip-ota.svg) chip-ota<br />
 ![Preview](./svg/radiator-cog.svg) radiator-cog<br />
-![Preview](./svg/radiator-schedule.svg) radiator-schedule<br />
-![Preview](./svg/radiator-off-schedule.svg) radiator-off-schedule<br />
+![Preview](./svg/radiator-clock.svg) radiator-clock<br />
+![Preview](./svg/radiator-off-clock.svg) radiator-off-clock<br />
 ![Preview](./svg/light-tree.svg) light-tree<br />
 
 
