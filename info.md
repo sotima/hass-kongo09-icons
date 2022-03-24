@@ -11,10 +11,10 @@ entities:
     icon: sotima:window-shutter-group
   - entity: cover.templ_buero
     name: Office
-    icon: sotima:window-shutter-partly
+    icon: sotima:window-shutter-50
   - entity: input_datetime.front_cover_close_time
     name: Close covers at
-    icon: sotima:window-shutter-schedule
+    icon: sotima:window-shutter-clock
 ```
 
 ![Example](https://github.com/sotima/hass-sotima-icons/blob/master/content.png)
