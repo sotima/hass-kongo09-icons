@@ -17,6 +17,7 @@ Custom icon pack designed for Home Assistant for personal use / shamelessly copi
 ![Preview](./svg/radiator-clock.svg) radiator-clock<br />
 ![Preview](./svg/radiator-off-clock.svg) radiator-off-clock<br />
 ![Preview](./svg/light-tree.svg) light-tree<br />
+![Preview](./svg/lightbulb-group-clock.svg) lightbulb-group-clock<br />
 
 
 ## Install
