@@ -7,9 +7,9 @@ Custom icon pack designed for Home Assistant for personal use / shamelessly copi
 ## Content
 
 ![Preview](./svg/window-shutter-group.svg) window-shutter-group<br />
-![Preview](./svg/window-shutter-group-partly.svg) window-shutter-group-partly<br />
+![Preview](./svg/window-shutter-group-50.svg) window-shutter-group-50<br />
 ![Preview](./svg/window-shutter-group-open.svg) window-shutter-group-open<br />
-![Preview](./svg/window-shutter-partly.svg) window-shutter-partly<br />
+![Preview](./svg/window-shutter-50.svg) window-shutter-50<br />
 ![Preview](./svg/window-shutter-clock.svg) window-shutter-clock<br />
 ![Preview](./svg/window-shutter-cog.svg) window-shutter-cog<br />
 ![Preview](./svg/chip-ota.svg) chip-ota<br />
