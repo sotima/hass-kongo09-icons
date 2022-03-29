@@ -54,7 +54,7 @@ Example:
 ```
 type: entity
 entity: cover.livingroom
-icon: 'sotima:windows-shutter-partly'
+icon: 'sotima:windows-shutter-50'
 ```
 
 ## Thanks
